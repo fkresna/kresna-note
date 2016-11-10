@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kresna Note on Software Development</title>
+    <link>https://fkresna.github.io/kresna-note/index.xml</link>
+    <description>Recent content on Kresna Note on Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Nov 2016 16:11:04 -0500</lastBuildDate>
+    <atom:link href="https://fkresna.github.io/kresna-note/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>https://fkresna.github.io/kresna-note/about/</link>
+      <pubDate>Wed, 09 Nov 2016 16:11:04 -0500</pubDate>
+      
+      <guid>https://fkresna.github.io/kresna-note/about/</guid>
+      <description>&lt;p&gt;LinkenIn: &lt;a href=&#34;https://www.linkedin.com/in/fkresna&#34;&gt;https://www.linkedin.com/in/fkresna&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Install LAMP in Ubuntu 16.04</title>
+      <link>https://fkresna.github.io/kresna-note/linux/install-lamp-ubuntu16/</link>
+      <pubDate>Wed, 09 Nov 2016 15:15:16 -0500</pubDate>
+      
+      <guid>https://fkresna.github.io/kresna-note/linux/install-lamp-ubuntu16/</guid>
+      <description>
+
+&lt;h1 id=&#34;install-lamp-in-ubuntu-16-04&#34;&gt;Install LAMP in Ubuntu 16.04&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
