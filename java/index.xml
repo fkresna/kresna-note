@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java-rsses on Kresna Note on Software Development</title>
+    <link>http://note.kresna.xyz/java/index.xml</link>
+    <description>Recent content in Java-rsses on Kresna Note on Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Kresna.xyz</copyright>
+    <lastBuildDate>Thu, 17 Nov 2016 13:41:03 +0700</lastBuildDate>
+    <atom:link href="http://note.kresna.xyz/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Inner Class</title>
+      <link>http://note.kresna.xyz/java/inner-class/</link>
+      <pubDate>Thu, 17 Nov 2016 13:41:03 +0700</pubDate>
+      
+      <guid>http://note.kresna.xyz/java/inner-class/</guid>
+      <description>&lt;script src=&#34;//gist.github.com/fkresna/da33840a3a5b7e3c366ebe2f675465e2.js&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
