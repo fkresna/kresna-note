@@ -19,7 +19,16 @@
 
 &lt;h2 id=&#34;regular-inner-class&#34;&gt;Regular Inner Class&lt;/h2&gt;
 
-&lt;script src=&#34;//gist.github.com/fkresna/da33840a3a5b7e3c366ebe2f675465e2.js&#34;&gt;&lt;/script&gt;
+&lt;pre&gt;&lt;code&gt;class classA{
+  private String text = &amp;quot;Some string&amp;quot;;
+
+  class classB{
+    public void methodA() {
+      System.out.println(&amp;quot;MethodA&amp;quot;);
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&#34;static-inner-class&#34;&gt;Static Inner Class&lt;/h2&gt;
 

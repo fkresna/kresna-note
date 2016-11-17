@@ -7,20 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Kresna.xyz</copyright>
-    <lastBuildDate>Wed, 09 Nov 2016 15:15:16 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 17 Nov 2016 15:15:16 -0500</lastBuildDate>
     <atom:link href="http://note.kresna.xyz/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Install LAMP in Ubuntu 16.04</title>
       <link>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</link>
-      <pubDate>Wed, 09 Nov 2016 15:15:16 -0500</pubDate>
+      <pubDate>Thu, 17 Nov 2016 15:15:16 -0500</pubDate>
       
       <guid>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</guid>
       <description>
 
-&lt;h1 id=&#34;install-lamp-in-ubuntu-16-04&#34;&gt;Install LAMP in Ubuntu 16.04&lt;/h1&gt;
+&lt;h3 id=&#34;update-and-install-apache2-mysql-and-php&#34;&gt;Update and install apache2, MySQL, and PHP&lt;/h3&gt;
 
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install apache2
+sudo apt-get install mysql-server
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-gd php-domphp-mbstring
+sudo apt-get install landscape-common
+&lt;/code&gt;&lt;/pre&gt;
 
+&lt;h3 id=&#34;setup-apache-virtual-host&#34;&gt;Setup apache virtual host&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;cd /etc/apache2/sites-available
+cp 000-default.conf newsite.conf
+cd ../sites-enabled
+ln -s ../sites-available/newsite.conf newsite.conf
+sudo a2ensite newsite.conf
+sudo systemctl restart apache2
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;reference&#34;&gt;Reference:&lt;/h3&gt;
 

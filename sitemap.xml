@@ -3,7 +3,12 @@
   
   <url>
     <loc>http://note.kresna.xyz/</loc>
-    <lastmod>2016-11-17T13:41:03+07:00</lastmod>
+    <lastmod>2016-11-17T15:15:16-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</loc>
+    <lastmod>2016-11-17T15:15:16-05:00</lastmod>
   </url>
   
   <url>
@@ -13,11 +18,6 @@
   
   <url>
     <loc>http://note.kresna.xyz/hello_world/</loc>
-    <lastmod>2016-11-09T15:15:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</loc>
     <lastmod>2016-11-09T15:15:16-05:00</lastmod>
   </url>
   
