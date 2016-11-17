@@ -16,7 +16,17 @@
       <pubDate>Thu, 17 Nov 2016 13:41:03 +0700</pubDate>
       
       <guid>http://note.kresna.xyz/java/inner-class/</guid>
-      <description>&lt;script src=&#34;//gist.github.com/fkresna/da33840a3a5b7e3c366ebe2f675465e2.js&#34;&gt;&lt;/script&gt;
+      <description>
+
+&lt;h2 id=&#34;regular-inner-class&#34;&gt;Regular Inner Class&lt;/h2&gt;
+
+&lt;script src=&#34;//gist.github.com/fkresna/da33840a3a5b7e3c366ebe2f675465e2.js&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;static-inner-class&#34;&gt;Static Inner Class&lt;/h2&gt;
+
+&lt;h2 id=&#34;method-local-inner-class&#34;&gt;Method-local Inner Class&lt;/h2&gt;
+
+&lt;h2 id=&#34;anonymous-inner-class&#34;&gt;Anonymous Inner Class&lt;/h2&gt;
 </description>
     </item>
     
@@ -29,6 +39,27 @@
       <description>&lt;p&gt;After trying with several other blogging platforms such as Wordpress, Blogger and so on I feel that I need simpler solution to accommodate my needs, I was trying Jekyll because I interested with static website which is simple and does not need a lot of resources but there is no easy installation for ruby or Jekyll around 2013 - 2014, I manage to install it successfully but feel too much hassle doing it so I just uninstall it. Time passes and I feel the urge to write again especially for the note that I create during development, Sadly some of the development notes are missing or I just don&amp;rsquo;t know where I put it.&lt;/p&gt;
 
 &lt;p&gt;After several years passed, I search again static website generator maybe someone creates another one so I found &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; it looks good then I tried to install it, It is quite straight forward and has very easy installation steps so I decided to use it to write my development note using Hugo platform.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Install LAMP in Ubuntu 16.04</title>
+      <link>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</link>
+      <pubDate>Wed, 09 Nov 2016 15:15:16 -0500</pubDate>
+      
+      <guid>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</guid>
+      <description>
+
+&lt;h1 id=&#34;install-lamp-in-ubuntu-16-04&#34;&gt;Install LAMP in Ubuntu 16.04&lt;/h1&gt;
+
+
+
+&lt;h3 id=&#34;reference&#34;&gt;Reference:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04&#34;&gt;How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04&#34;&gt;How To Set Up Apache Virtual Hosts on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

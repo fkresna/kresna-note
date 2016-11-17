@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux-rsses on Kresna Note on Software Development</title>
-    <link>http://note.kresna.xyz/linux/index.xml</link>
-    <description>Recent content in Linux-rsses on Kresna Note on Software Development</description>
+    <title>Kresna Note on Software Development</title>
+    <link>http://note.kresna.xyz/tags/linux/index.xml</link>
+    <description>Recent content on Kresna Note on Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Kresna.xyz</copyright>
-    <lastBuildDate>Wed, 09 Nov 2016 15:15:16 -0500</lastBuildDate>
-    <atom:link href="http://note.kresna.xyz/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://note.kresna.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Install LAMP in Ubuntu 16.04</title>
