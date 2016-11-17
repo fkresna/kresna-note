@@ -16,21 +16,21 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
     <title>Inner Class - Kresna Note on Software Development</title>
     
-<meta name="description" content=" Regular Inner Class class classA{ private String text = &amp;quot;Some string&amp;quot;; class classB{ public void methodA() { System.out.println(&amp;quot;MethodA&amp;quot;); } } }  Static Inner Class Method-local Inner Class Anonymous Inner Class ">
+<meta name="description" content=" Regular Inner Class class ClassA{ private String text = &amp;quot;Some string&amp;quot;; class ClassB{ public void methodA() { System.out.println(&amp;quot;MethodA&amp;quot;); } } }  Static Inner Class class ClassA1{ static class ClassB { void methodB() { System.out.println(&amp;quot;methodB&amp;quot;); } } } class ClassC { static class ClassD { void methodD() { System.out.println(&amp;quot;methodD&amp;quot;); } } public static void main(String[] args) { ClassA1.ClassB ab = new ClassA1.ClassB(); ab.methodB(); ClassD classD = new ClassD(); classD.methodD(); } }  Method-local Inner Class Anonymous Inner Class ">
 
 <meta property="og:title" content="Inner Class - Kresna Note on Software Development">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://note.kresna.xyz/java/inner-class/">
 <meta property="og:image" content="http://note.kresna.xyz/images/default.png">
 <meta property="og:site_name" content="Kresna Note on Software Development">
-<meta property="og:description" content=" Regular Inner Class class classA{ private String text = &amp;quot;Some string&amp;quot;; class classB{ public void methodA() { System.out.println(&amp;quot;MethodA&amp;quot;); } } }  Static Inner Class Method-local Inner Class Anonymous Inner Class ">
+<meta property="og:description" content=" Regular Inner Class class ClassA{ private String text = &amp;quot;Some string&amp;quot;; class ClassB{ public void methodA() { System.out.println(&amp;quot;MethodA&amp;quot;); } } }  Static Inner Class class ClassA1{ static class ClassB { void methodB() { System.out.println(&amp;quot;methodB&amp;quot;); } } } class ClassC { static class ClassD { void methodD() { System.out.println(&amp;quot;methodD&amp;quot;); } } public static void main(String[] args) { ClassA1.ClassB ab = new ClassA1.ClassB(); ab.methodB(); ClassD classD = new ClassD(); classD.methodD(); } }  Method-local Inner Class Anonymous Inner Class ">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="Kresna Note on Software Development">
 <meta name="twitter:url" content="http://note.kresna.xyz/java/inner-class/">
 <meta name="twitter:title" content="Inner Class - Kresna Note on Software Development">
-<meta name="twitter:description" content=" Regular Inner Class class classA{ private String text = &amp;quot;Some string&amp;quot;; class classB{ public void methodA() { System.out.println(&amp;quot;MethodA&amp;quot;); } } }  Static Inner Class Method-local Inner Class Anonymous Inner Class ">
+<meta name="twitter:description" content=" Regular Inner Class class ClassA{ private String text = &amp;quot;Some string&amp;quot;; class ClassB{ public void methodA() { System.out.println(&amp;quot;MethodA&amp;quot;); } } }  Static Inner Class class ClassA1{ static class ClassB { void methodB() { System.out.println(&amp;quot;methodB&amp;quot;); } } } class ClassC { static class ClassD { void methodD() { System.out.println(&amp;quot;methodD&amp;quot;); } } public static void main(String[] args) { ClassA1.ClassB ab = new ClassA1.ClassB(); ab.methodB(); ClassD classD = new ClassD(); classD.methodD(); } }  Method-local Inner Class Anonymous Inner Class ">
 <meta name="twitter:image" content="http://note.kresna.xyz/images/default.png">
 
 
@@ -65,7 +65,7 @@
         "height": 60
       }
     },
-    "description": " Regular Inner Class class classA{ private String text = \x26quot;Some string\x26quot;; class classB{ public void methodA() { System.out.println(\x26quot;MethodA\x26quot;); } } }  Static Inner Class Method-local Inner Class Anonymous Inner Class "
+    "description": " Regular Inner Class class ClassA{ private String text = \x26quot;Some string\x26quot;; class ClassB{ public void methodA() { System.out.println(\x26quot;MethodA\x26quot;); } } }  Static Inner Class class ClassA1{ static class ClassB { void methodB() { System.out.println(\x26quot;methodB\x26quot;); } } } class ClassC { static class ClassD { void methodD() { System.out.println(\x26quot;methodD\x26quot;); } } public static void main(String[] args) { ClassA1.ClassB ab = new ClassA1.ClassB(); ab.methodB(); ClassD classD = new ClassD(); classD.methodD(); } }  Method-local Inner Class Anonymous Inner Class "
   }
 </script>
 
@@ -152,10 +152,10 @@ ga('send', 'pageview');
 
 <h2 id="regular-inner-class">Regular Inner Class</h2>
 
-<pre><code>class classA{
+<pre><code>class ClassA{
   private String text = &quot;Some string&quot;;
 
-  class classB{
+  class ClassB{
     public void methodA() {
       System.out.println(&quot;MethodA&quot;);
     }
@@ -164,6 +164,30 @@ ga('send', 'pageview');
 </code></pre>
 
 <h2 id="static-inner-class">Static Inner Class</h2>
+
+<pre><code>class ClassA1{
+  static class ClassB {
+    void methodB() {
+      System.out.println(&quot;methodB&quot;);
+    }
+  }
+}
+
+class ClassC {
+  static class ClassD {
+    void methodD() {
+      System.out.println(&quot;methodD&quot;);
+    }
+  }
+  public static void main(String[] args) {
+    ClassA1.ClassB ab = new ClassA1.ClassB();
+    ab.methodB();
+
+    ClassD classD = new ClassD();
+    classD.methodD();
+  }
+}
+</code></pre>
 
 <h2 id="method-local-inner-class">Method-local Inner Class</h2>
 

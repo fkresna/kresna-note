@@ -90,7 +90,7 @@ ga('send', 'pageview');
   </header>
 
   
-  <div class="summary"> Regular Inner Class class classA{ private String text = &quot;Some string&quot;; class classB{ public void methodA() { System.out.println(&quot;MethodA&quot;); } } }  Static Inner Class Method-local Inner Class Anonymous Inner Class </div>
+  <div class="summary"> Regular Inner Class class ClassA{ private String text = &quot;Some string&quot;; class ClassB{ public void methodA() { System.out.println(&quot;MethodA&quot;); } } }  Static Inner Class class ClassA1{ static class ClassB { void methodB() { System.out.println(&quot;methodB&quot;); } } } class ClassC { static class ClassD { void methodD() { System.out.println(&quot;methodD&quot;); } } public static void main(String[] args) { ClassA1.ClassB ab = new ClassA1.ClassB(); ab.methodB(); ClassD classD = new ClassD(); classD.methodD(); } }  Method-local Inner Class Anonymous Inner Class </div>
 
   <footer>
     <a href="http://note.kresna.xyz/java/inner-class/" title="Inner Class">Read More…</a>
