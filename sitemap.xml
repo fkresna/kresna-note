@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<<<<<<< HEAD
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -34,14 +33,10 @@
     <lastmod>2016-11-17T13:41:03+07:00</lastmod>
     <priority>0</priority>
   </url>
-=======
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
->>>>>>> 0822e7388aae10b4bb4e2fd29d471ef45e9da9cf
   
   <url>
     <loc>http://note.kresna.xyz/</loc>
     <lastmod>2016-11-17T15:15:16-05:00</lastmod>
-<<<<<<< HEAD
     <priority>0</priority>
   </url>
   
@@ -91,23 +86,6 @@
     <loc>http://note.kresna.xyz/tags/ubuntu/</loc>
     <lastmod>2016-11-17T15:15:16-05:00</lastmod>
     <priority>0</priority>
-=======
-  </url>
-  
-  <url>
-    <loc>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</loc>
-    <lastmod>2016-11-17T15:15:16-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://note.kresna.xyz/java/inner-class/</loc>
-    <lastmod>2016-11-17T13:41:03+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://note.kresna.xyz/hello_world/</loc>
-    <lastmod>2016-11-09T15:15:16-05:00</lastmod>
->>>>>>> 0822e7388aae10b4bb4e2fd29d471ef45e9da9cf
   </url>
   
 </urlset>

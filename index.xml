@@ -2,7 +2,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kresna Note on Software Development</title>
-<<<<<<< HEAD
     <link>http://note.kresna.xyz/</link>
     <description>Recent content on Kresna Note on Software Development</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -14,133 +13,32 @@
     
 	<atom:link href="http://note.kresna.xyz/index.xml" rel="self" type="application/rss+xml" />
     
-=======
-    <link>http://note.kresna.xyz/index.xml</link>
-    <description>Recent content on Kresna Note on Software Development</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Kresna.xyz</copyright>
-    <lastBuildDate>Thu, 17 Nov 2016 15:15:16 -0500</lastBuildDate>
-    <atom:link href="http://note.kresna.xyz/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> 0822e7388aae10b4bb4e2fd29d471ef45e9da9cf
     
     <item>
       <title>Install LAMP in Ubuntu 16.04</title>
       <link>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</link>
       <pubDate>Thu, 17 Nov 2016 15:15:16 -0500</pubDate>
-<<<<<<< HEAD
       <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
       <guid>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</guid>
       <description>Update and install apache2, MySQL, and PHP sudo apt-get update sudo apt-get install apache2 sudo apt-get install mysql-server sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-gd php-domphp-mbstring sudo apt-get install landscape-common  Setup apache virtual host cd /etc/apache2/sites-available cp 000-default.conf newsite.conf cd ../sites-enabled ln -s ../sites-available/newsite.conf newsite.conf sudo a2ensite newsite.conf sudo systemctl restart apache2  Reference:  How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 16.04 How To Set Up Apache Virtual Hosts on Ubuntu 16.</description>
-=======
-      
-      <guid>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</guid>
-      <description>
-
-&lt;h3 id=&#34;update-and-install-apache2-mysql-and-php&#34;&gt;Update and install apache2, MySQL, and PHP&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt-get update
-sudo apt-get install apache2
-sudo apt-get install mysql-server
-sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-gd php-domphp-mbstring
-sudo apt-get install landscape-common
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;setup-apache-virtual-host&#34;&gt;Setup apache virtual host&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;cd /etc/apache2/sites-available
-cp 000-default.conf newsite.conf
-cd ../sites-enabled
-ln -s ../sites-available/newsite.conf newsite.conf
-sudo a2ensite newsite.conf
-sudo systemctl restart apache2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;reference&#34;&gt;Reference:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04&#34;&gt;How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04&#34;&gt;How To Set Up Apache Virtual Hosts on Ubuntu 16.04&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
->>>>>>> 0822e7388aae10b4bb4e2fd29d471ef45e9da9cf
     </item>
     
     <item>
       <title>Inner Class</title>
       <link>http://note.kresna.xyz/java/inner-class/</link>
       <pubDate>Thu, 17 Nov 2016 13:41:03 +0700</pubDate>
-<<<<<<< HEAD
       <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
       <guid>http://note.kresna.xyz/java/inner-class/</guid>
       <description> Regular Inner Class class ClassA{ private String text = &amp;quot;Some string&amp;quot;; class ClassB{ public void methodA() { System.out.println(&amp;quot;MethodA&amp;quot;); } } }  Static Inner Class class ClassA1{ static class ClassB { void methodB() { System.out.println(&amp;quot;methodB&amp;quot;); } } } class ClassC { static class ClassD { void methodD() { System.out.println(&amp;quot;methodD&amp;quot;); } } public static void main(String[] args) { ClassA1.ClassB ab = new ClassA1.ClassB(); ab.methodB(); ClassD classD = new ClassD(); classD.methodD(); } }  Method-local Inner Class Anonymous Inner Class </description>
-=======
-      
-      <guid>http://note.kresna.xyz/java/inner-class/</guid>
-      <description>
-
-&lt;h2 id=&#34;regular-inner-class&#34;&gt;Regular Inner Class&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;class ClassA{
-  private String text = &amp;quot;Some string&amp;quot;;
-
-  class ClassB{
-    public void methodA() {
-      System.out.println(&amp;quot;MethodA&amp;quot;);
-    }
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;static-inner-class&#34;&gt;Static Inner Class&lt;/h2&gt;
-
-&lt;pre&gt;&lt;code&gt;class ClassA1{
-  static class ClassB {
-    void methodB() {
-      System.out.println(&amp;quot;methodB&amp;quot;);
-    }
-  }
-}
-
-class ClassC {
-  static class ClassD {
-    void methodD() {
-      System.out.println(&amp;quot;methodD&amp;quot;);
-    }
-  }
-  public static void main(String[] args) {
-    ClassA1.ClassB ab = new ClassA1.ClassB();
-    ab.methodB();
-
-    ClassD classD = new ClassD();
-    classD.methodD();
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;method-local-inner-class&#34;&gt;Method-local Inner Class&lt;/h2&gt;
-
-&lt;h2 id=&#34;anonymous-inner-class&#34;&gt;Anonymous Inner Class&lt;/h2&gt;
-</description>
->>>>>>> 0822e7388aae10b4bb4e2fd29d471ef45e9da9cf
     </item>
     
     <item>
       <title>Hello World</title>
       <link>http://note.kresna.xyz/hello_world/</link>
       <pubDate>Wed, 09 Nov 2016 15:15:16 -0500</pubDate>
-<<<<<<< HEAD
       <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
       <guid>http://note.kresna.xyz/hello_world/</guid>
       <description>After trying with several other blogging platforms such as Wordpress, Blogger and so on I feel that I need simpler solution to accommodate my needs, I was trying Jekyll because I interested with static website which is simple and does not need a lot of resources but there is no easy installation for ruby or Jekyll around 2013 - 2014, I manage to install it successfully but feel too much hassle doing it so I just uninstall it.</description>
-=======
-      
-      <guid>http://note.kresna.xyz/hello_world/</guid>
-      <description>&lt;p&gt;After trying with several other blogging platforms such as Wordpress, Blogger and so on I feel that I need simpler solution to accommodate my needs, I was trying Jekyll because I interested with static website which is simple and does not need a lot of resources but there is no easy installation for ruby or Jekyll around 2013 - 2014, I manage to install it successfully but feel too much hassle doing it so I just uninstall it. Time passes and I feel the urge to write again especially for the note that I create during development, Sadly some of the development notes are missing or I just don&amp;rsquo;t know where I put it.&lt;/p&gt;
-
-&lt;p&gt;After several years passed, I search again static website generator maybe someone creates another one so I found &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; it looks good then I tried to install it, It is quite straight forward and has very easy installation steps so I decided to use it to write my development note using Hugo platform.&lt;/p&gt;
-</description>
->>>>>>> 0822e7388aae10b4bb4e2fd29d471ef45e9da9cf
     </item>
     
   </channel>
