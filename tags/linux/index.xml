@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Kresna Note on Software Development</title>
+    <link>http://note.kresna.xyz/tags/linux/</link>
+    <description>Recent content in Linux on Kresna Note on Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>freddy@kresna.xyz (Freddy K Tjoenedi)</managingEditor>
+    <webMaster>freddy@kresna.xyz (Freddy K Tjoenedi)</webMaster>
+    <copyright>Kresna.xyz</copyright>
+    <lastBuildDate>Thu, 17 Nov 2016 15:15:16 -0500</lastBuildDate>
+    
+	<atom:link href="http://note.kresna.xyz/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install LAMP in Ubuntu 16.04</title>
+      <link>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</link>
+      <pubDate>Thu, 17 Nov 2016 15:15:16 -0500</pubDate>
+      <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
+      <guid>http://note.kresna.xyz/linux/install-lamp-ubuntu16/</guid>
+      <description>Update and install apache2, MySQL, and PHP sudo apt-get update sudo apt-get install apache2 sudo apt-get install mysql-server sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql php-gd php-domphp-mbstring sudo apt-get install landscape-common  Setup apache virtual host cd /etc/apache2/sites-available cp 000-default.conf newsite.conf cd ../sites-enabled ln -s ../sites-available/newsite.conf newsite.conf sudo a2ensite newsite.conf sudo systemctl restart apache2  Reference:  How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 16.04 How To Set Up Apache Virtual Hosts on Ubuntu 16.</description>
+    </item>
+    
+  </channel>
+</rss>
