@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Kresna Note on Software Development</title>
+    <link>http://note.kresna.xyz/tags/</link>
+    <description>Recent content in Tags on Kresna Note on Software Development</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>freddy@kresna.xyz (Freddy K Tjoenedi)</managingEditor>
+    <webMaster>freddy@kresna.xyz (Freddy K Tjoenedi)</webMaster>
+    <copyright>Kresna.xyz</copyright>
+    <lastBuildDate>Thu, 17 Nov 2016 13:41:03 +0700</lastBuildDate>
+    
+	<atom:link href="http://note.kresna.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java</title>
+      <link>http://note.kresna.xyz/tags/java/</link>
+      <pubDate>Thu, 17 Nov 2016 13:41:03 +0700</pubDate>
+      <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
+      <guid>http://note.kresna.xyz/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>http://note.kresna.xyz/tags/linux/</link>
+      <pubDate>Thu, 17 Nov 2016 15:15:16 -0500</pubDate>
+      <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
+      <guid>http://note.kresna.xyz/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ocjp</title>
+      <link>http://note.kresna.xyz/tags/ocjp/</link>
+      <pubDate>Thu, 17 Nov 2016 13:41:03 +0700</pubDate>
+      <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
+      <guid>http://note.kresna.xyz/tags/ocjp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>http://note.kresna.xyz/tags/php/</link>
+      <pubDate>Thu, 17 Nov 2016 15:15:16 -0500</pubDate>
+      <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
+      <guid>http://note.kresna.xyz/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>http://note.kresna.xyz/tags/ubuntu/</link>
+      <pubDate>Thu, 17 Nov 2016 15:15:16 -0500</pubDate>
+      <author>freddy@kresna.xyz (Freddy K Tjoenedi)</author>
+      <guid>http://note.kresna.xyz/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
